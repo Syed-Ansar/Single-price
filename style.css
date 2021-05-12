@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: rgb(242, 251, 252);
+}
+h2,h3{
+    font-weight: 300;
+    font-size: smaller;
+    margin-bottom: 1rem;
+    color: #fff;
+}
+p{
+    color: hsl(204, 43%, 93%);
+    font-size: smaller;
+}
+.container{
+    width: 100%;
+}
+.mainbox{
+    -webkit-box-shadow: 0 0 5px 2px rgba(0,0,0,0.2) ;
+    -moz-box-shadow: 0 0 5px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    margin:100px auto;
+    width: 40%;
+}
+.comunity{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #fff;
+    padding: 2rem;
+}
+.comunity h2{
+    font-size: 1.5em;
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 1.5rem;
+}
+.comunity h3{
+    font-size: 1em;
+    color: hsl(71, 73%, 54%);
+}
+.comunity p{
+    margin-bottom: 0rem;
+    font-weight: 300;
+    line-height: 1.7;
+    max-width: 95%;
+    font-size: .8em;
+    color: hsl(218, 22%, 67%);
+}
+.monthly{
+    border-bottom-left-radius: 5px;
+}
+.monthly h2{
+    font-size: 1.5rem;
+}
+.monthly p{
+  margin-bottom: 1rem;
+}
+small{
+    font-size: .6rem;
+    color: hsla(210, 13%, 91%, 0.741);
+    font-weight: lighter;
+}
+.box-2{
+    width: 100%;
+}
+.flex{
+    display: flex;
+}
+.monthly{
+    min-width: 50%;
+    padding: 2rem;
+    background-color: hsl(179, 62%, 43%);
+}
+.why{
+    font-weight: lighter;
+    line-height: 1.7;
+    min-width: 50%;
+    padding: 2rem;
+    background-color: hsl(179deg 48% 50%);
+    border-bottom-right-radius: 5px;
+}
+.why p{
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 1.7;
+    max-width: 65%;
+    color: hsla(210, 13%, 91%, 0.741);
+}
+.btn{
+    border: none;
+    border-radius: 4px;
+    padding: 12px 80px;
+    background-color: hsl(71, 73%, 54%);
+    cursor: pointer;
+    -webkit-box-shadow: 0 0 5px 2px rgba(0,0,0,0.2) ;
+    -moz-box-shadow: 0 0 5px 2px rgba(0,0,0,0.2);
+    box-shadow: 0 0 1.5px 1.5px rgba(0,0,0,0.1);
+}
+@media (min-width:250px) and (max-width:968px) {
+    .mainbox{
+        width: 80%;
+        margin: 4rem auto;
+    }
+    .comunity{
+        width: 100%;
+        margin: 0px;
+    }
+    .flex{
+        flex-direction: column;
+    }
+    .monthly{
+        margin: 0px;
+        width: 100%;
+        border-bottom-left-radius: 0px;
+    }
+    .why{
+        width: 100%;
+        border-bottom-left-radius: 5px;
+    }
+    .btn{
+       margin: auto auto;
+    }
+}
