@@ -92,6 +92,7 @@ small{
     color: hsla(210, 13%, 91%, 0.741);
 }
 .btn{
+    color:#fff;
     border: none;
     border-radius: 4px;
     padding: 12px 80px;
